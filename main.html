@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<title>music players</title>
+
+<style>
+    #main{
+      background-color:darkblue;
+      width:100%;
+      text-align: center;
+      color: white;    
+    }
+    #main2{
+     width: 100%;
+     text-align: center;
+
+    }
+    img {
+        width: 400px;
+        height: 400px;
+        margin: 20px;
+        }
+    a {
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+    }
+    a:hover {
+        background-color:brown
+ 
+    }
+ 
+ </style>
+ 
+
+
+<div id ="main">
+<h1>jimins music players</h1>
+<a href ="lesson4.html">STREAMING</a>
+<a href ="youtube.html">MUSIC VIDEO</a>
+
+</div>
+
+<div id ="main2">
+    <img id ="q" src ="https://www.artinsight.co.kr/data/tmp/1908/1501cf89202c25ce439949ffd767c3dd_IUDfUfz6jJVJ.jpg">
+    <img id ="w" src ="http://www.samick.co.kr/images/sub/a2.jpg">
+    <img id ="z" src ="https://t1.daumcdn.net/cfile/tistory/99B3263359928F0F30">
+    <p></p>
+    <img id ="r" src ="https://i.ytimg.com/vi/OcEBSxlwycw/maxresdefault.jpg">
+    <img id ="t" src ="https://i.ytimg.com/vi/bdE_SyHad90/maxresdefault.jpg">
+    <img id ="y" src ="https://i.ytimg.com/vi/aRWKi18SuHk/maxresdefault.jpg">
+</div>
+
+<script>
+var a = new Audio("file:///C:/Users/juden/Downloads/Bubble%20Bath%20-%20The%20Green%20Orbs.mp3")
+var b = new Audio("file:///C:/Users/juden/Downloads/Toy%20Piano%20-%20Wayne%20Jones.mp3")
+var c = new Audio("file:///C:/Users/juden/Downloads/Rainy%20Day%20Games%20-%20The%20Green%20Orbs.mp3")
+var d = new Audio("file:///C:/Users/juden/Downloads/Claudio%20The%20Worm%20-%20The%20Green%20Orbs.mp3")
+var e = new Audio("file:///C:/Users/juden/Downloads/Robin%20Hustin%20x%20TobiMorrow%20-%20Light%20It%20Up%20(feat.%20Jex)%20[NCS%20Release].mp3")
+var f = new Audio("file:///C:/Users/juden/Downloads/Ascence%20-%20Without%20You%20[NCS%20Release].mp3")
+function playA() {
+    a.play();
+
+}
+function stopA() {
+    a.pause();
+}
+q.onmouseover = playA
+q.onmouseout = stopA
+
+function playB() {
+    b.play();    
+}
+function stopB() {
+    b.pause();
+}
+w.onmouseover = playB
+w.onmouseout = stopB
+
+function playC() {
+    c.play();   
+}
+function stopC() {
+    c.pause();
+}
+z.onmouseover = playC
+z.onmouseout = stopC
+
+
+function playD() {
+    d.play();
+    
+}
+function stopD() {
+    d.pause();
+}
+r.onmouseover = playD
+r.onmouseout = stopD
+
+function playE() {
+    e.play();
+    
+}
+function stopE() {
+    e.pause();
+}
+t.onmouseover = playE
+t.onmouseout = stopE
+
+function playF() {
+    f.play();
+    
+}
+function stopF() {
+    f.pause();
+}
+y.onmouseover = playF
+y.onmouseout = stopF
+
+
+
+</script>
+
+
